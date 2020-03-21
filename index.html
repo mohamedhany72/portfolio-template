@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="icon" href="images/icon2.png" type="image/x-icon">
+    <!--goolgle fonts-->
+    <link href="https://fonts.googleapis.com/css?family=PT+Serif:700|Poppins:300,400|Raleway&display=swap" rel="stylesheet">
+    <!--swiper-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+    <!--bootstrap-->
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <!--fontawsome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+   
+    <!--main-->
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <!--navigation bar-->
+    <nav class="navbar navbar-expand-lg sticky-top navbar-light navigation-bar">
+        <div class="container-lg">
+            <a class="navbar-brand" href="#"><span>P</span>ortfolio</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#header">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">Work</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#clients">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <button type="button" class="btn btn-outline-primary">Hire Me!</button>
+                </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--header-->
+    <header id="header">
+        <div class="container-lg">
+            <div class="row align-items-center">
+                <div class="image col-lg-7"><img src="images/header-image.png" alt="somebody's image"></div>
+
+                <div class="header-data col-lg-5">
+                    <h1>Hello, I'm Mido</h1>
+                    
+                    <h2>Expert in Graphic<br>Design & Development</h2>
+
+                    <p>Currently available for select projects, collaborations and consulting.Currently available for select projects, collaborations and consulting.</p>
+                
+                    <button type="button" class="btn btn-primary">SEE MY WORK</button>
+                </div>
+            </div>
+        </div>
+    </header>    
+
+    <!--main-->
+    <main>
+        <section id="services">
+            <h2>SERVICES</h2>
+            <!-- Swiper -->
+            <div class="swiper-container first-swiper">
+                <div class="swiper-wrapper" id="swiper-wrapper">
+                    <div class="swiper-slide" id="web-app-swiper">
+                        <i class="fas fa-globe"></i>
+                        <h3>Web Apps</h3>
+                        <span></span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, assumenda!</p>
+                    </div>
+                    <div class="swiper-slide" id="web-design-swiper">
+                        <i class="fas fa-paint-brush"></i>
+                        <h3>Web Design</h3>
+                        <span></span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, veniam!</p>
+                    </div>
+                    <div class="swiper-slide" id="t-shirt-design-swiper">
+                        <i class="fas fa-tshirt"></i>
+                        <h3>T-shirt Design</h3>
+                        <span></span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, tenetur?</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio">
+            <h2>PORTFOLIO</h2>
+            <div class="container-lg">
+
+                <!--web apps-->
+                <div id="web-apps" class="portfolio-none">
+                    <div class="row">
+                        <div class="col-md-6 col-lg-4 portfolio-card">
+                            <img src="images/img4.jpg" alt="img4">
+                            <div class="hover">
+                                <div class="hover-data">
+                                    <h3 class="project-name">Name</h3>
+                                    <p class="project-description">Lorem ipsum dolor sit amet.</p>
+                                    <a href="" class="project-link">VISIT APP</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 portfolio-card">
+                            <img src="images/img5.jpg" alt="img5">
+                            <div class="hover">
+                                <div class="hover-data">
+                                    <h3 class="project-name">Name</h3>
+                                    <p class="project-description">Lorem ipsum dolor sit amet.</p>
+                                    <a href="" class="project-link">VISIT APP</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 d-none d-lg-block portfolio-card">
+                            <img src="images/img6.jpg" alt="img6">
+                            <div class="hover">
+                                <div class="hover-data">
+                                    <h3 class="project-name">Name</h3>
+                                    <p class="project-description">Lorem ipsum dolor sit amet.</p>
+                                    <a href="" class="project-link">VISIT APP</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-md-6 col-lg-4 portfolio-card">
+                            <img src="images/img1.jpg" alt="img1">
+                            <div class="hover">
+                                <div class="hover-data">
+                                    <h3 class="project-name">Name</h3>
+                                    <p class="project-description">Lorem ipsum dolor sit amet.</p>
+                                    <a href="" class="project-link">VISIT APP</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 d-none d-md-block portfolio-card">
+                            <img src="images/img2.jpg" alt="img2">
+                            <div class="hover">
+                                <div class="hover-data">
+                                    <h3 class="project-name">Name</h3>
+                                    <p class="project-description">Lorem ipsum dolor sit amet.</p>
+                                    <a href="" class="project-link">VISIT APP</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 d-none d-lg-block portfolio-card">
+                            <img src="images/img3.jpg" alt="img3">
+                            <div class="hover">
+                                <div class="hover-data">
+                                    <h3 class="project-name">Name</h3>
+                                    <p class="project-description">Lorem ipsum dolor sit amet.</p>
+                                    <a href="" class="project-link">VISIT APP</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!--wen design-->
+                <div id="web-design" class="portfolio-none portfolio-active">
+                    <div class="row">
+                        <div class="col-md-6 col-lg-4 portfolio-card">
+                            <img src="images/img1.jpg" alt="img-1">
+                            <div class="hover">
+                                <div class="hover-data">
+                                    <h3 class="project-name">Name</h3>
+                                    <p class="project-description">Lorem ipsum dolor sit amet.</p>
+                                    <a href="" class="project-link">VISIT SITE</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 portfolio-card">
+                            <img src="images/img2.jpg" alt="img-2">
+                            <div class="hover">
+                                <div class="hover-data">
+                                    <h3 class="project-name">Name</h3>
+                                    <p class="project-description">Lorem ipsum dolor sit amet.</p>
+                                    <a href="" class="project-link">VISIT SITE</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 d-none d-lg-block portfolio-card">
+                            <img src="images/img3.jpg" alt="img-3">
+                            <div class="hover">
+                                <div class="hover-data">
+                                    <h3 class="project-name">Name</h3>
+                                    <p class="project-description">Lorem ipsum dolor sit amet.</p>
+                                    <a href="" class="project-link">VISIT SITE</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6 col-lg-4 portfolio-card">
+                            <img src="images/img4.jpg" alt="img-4">
+                            <div class="hover">
+                                <div class="hover-data">
+                                    <h3 class="project-name">Name</h3>
+                                    <p class="project-description">Lorem ipsum dolor sit amet.</p>
+                                    <a href="" class="project-link">VISIT SITE</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 d-none d-md-block portfolio-card">
+                            <img src="images/img5.jpg" alt="img-5">
+                            <div class="hover">
+                                <div class="hover-data">
+                                    <h3 class="project-name">Name</h3>
+                                    <p class="project-description">Lorem ipsum dolor sit amet.</p>
+                                    <a href="" class="project-link">VISIT SITE</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 d-none d-lg-block portfolio-card">
+                            <img src="images/img6.jpg" alt="img-6">
+                            <div class="hover">
+                                <div class="hover-data">
+                                    <h3 class="project-name">Name</h3>
+                                    <p class="project-description">Lorem ipsum dolor sit amet.</p>
+                                    <a href="" class="project-link">VISIT SITE</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--t-shirt design-->
+                <div id="t-shirt-design" class="portfolio-none">
+
+                    <div class="row">
+                        <div class="col-md-6 col-lg-4 portfolio-card">
+                            <img src="images/t-shirt-2.jpg" alt="t-shirt-2">
+                            <div class="hover">
+                                <div class="hover-data">
+                                    <h3 class="project-name">Mother's Day</h3>
+                                    <a href="" class="project-link">BUY FROM AMAZON</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 portfolio-card">
+                            <img src="images/t-shirt-3.jpg" alt="t-shirt-3">
+                            <div class="hover">
+                                <div class="hover-data">
+                                    <h3 class="project-name">Plant Based</h3>
+                                    <a href="" class="project-link">BUY FROM AMAZON</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 d-none d-lg-block portfolio-card">
+                            <img src="images/t-shirt-4.jpg" alt="t-shirt-4">
+                            <div class="hover">
+                                <div class="hover-data">
+                                    <h3 class="project-name">Happy Quote</h3>
+                                    <a href="" class="project-link">BUY FROM AMAZON</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6 col-lg-4 portfolio-card">
+                            <img src="images/t-shirt-5.jpg" alt="t-shirt-5">
+                            <div class="hover">
+                                <div class="hover-data">
+                                    <h3 class="project-name">Save our Planet</h3>
+                                    <a href="#" class="project-link">BUY FROM AMAZON</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 d-none d-lg-block portfolio-card">
+                            <img src="images/t-shirt-6.jpg" alt="t-shirt-6">
+                            <div class="hover">
+                                <div class="hover-data">
+                                    <h3 class="project-name">Vegan</h3>
+                                    <a href="#" class="project-link">BUY FROM AMAZON</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 want-more-card">
+                            <div class="want-more-t-shirts">
+                                <h3 class="project-name">Want More?</h3>
+                                <p class="project-description">There's more T-shirts for you</p>
+                                <a href="#" class="project-link">BUY MORE</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="want-more">
+            <div class="container-lg">
+                <div class="row">
+                    <div class="col-md-8">
+                        <h2 class="left">Make It Awesome!</h2>
+                        <p>
+                            There's nothing we wont try. Never heard the word impossible. This time there's no stopping us. The year is 1987 and NASA launches the last of Americas deep space probes.
+                        </p>
+                    </div>
+                    <div class="col-md-4 button-div"><button type="button" class="btn btn-outline-primary">Hire Me Now!</button></div>
+                </div>
+            </div>
+        </section>
+
+        <scetion id="clients">
+            <h2>What clients<br>feedback about me</h2>
+            <i class="fas fa-quote-right title-quote"></i>
+
+            <!-- Swiper -->
+            <!-- <div class="second-swiper"> -->
+                <div class="swiper-container second-swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="client-card">
+                                <img src="images/person1.jpeg" class="rounded-circle cropped2" alt="client 1">
+                                <h3 class="client-name">Name</h3>
+                                <span class="client-jop">Jop</span>
+
+                                <p>Fleeing from the Cylon tyranny the last Battlestar – Galactica - leads a rag-tag fugitive fleet on a lonely quest - a shining planet known as Earth? Texas tea.Its mission - to explore strange new worlds to seek out new life and new civilizations to boldly go where no man has gone before. Doin' it our way.</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="client-card">
+                                <img src="images/person2.jpeg" class="rounded-circle cropped2" alt="client 2">
+                                <h3 class="client-name">Name</h3>
+                                <span class="client-jop">Jop</span>
+
+                                <p>Fleeing from the Cylon tyranny the last Battlestar – Galactica - leads a rag-tag fugitive fleet on a lonely quest - a shining planet known as Earth? Texas tea.Its mission - to explore strange new worlds to seek out new life and new civilizations to boldly go where no man has gone before. Doin' it our way.</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="client-card">
+                                <img src="images/person3.jpeg" class="rounded-circle cropped2" alt="client 3">
+                                <h3 class="client-name">Name</h3>
+                                <span class="client-jop">Jop</span>
+
+                                <p>Fleeing from the Cylon tyranny the last Battlestar – Galactica - leads a rag-tag fugitive fleet on a lonely quest - a shining planet known as Earth? Texas tea.Its mission - to explore strange new worlds to seek out new life and new civilizations to boldly go where no man has gone before. Doin' it our way.</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="client-card">
+                                <img src="images/person4.jpeg" class="rounded-circle cropped2" alt="client 4">
+                                <h3 class="client-name">Name</h3>
+                                <span class="client-jop">Jop</span>
+
+                                <p>Fleeing from the Cylon tyranny the last Battlestar – Galactica - leads a rag-tag fugitive fleet on a lonely quest - a shining planet known as Earth? Texas tea.Its mission - to explore strange new worlds to seek out new life and new civilizations to boldly go where no man has gone before. Doin' it our way.</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="client-card">
+                                <img src="images/person5.jpeg" class="rounded-circle cropped2" alt="client 5">
+                                <h3 class="client-name">Name</h3>
+                                <span class="client-jop">Jop</span>
+
+                                <p>Fleeing from the Cylon tyranny the last Battlestar – Galactica - leads a rag-tag fugitive fleet on a lonely quest - a shining planet known as Earth? Texas tea.Its mission - to explore strange new worlds to seek out new life and new civilizations to boldly go where no man has gone before. Doin' it our way.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                    <!-- Add Arrows -->
+                    <div class="swiper-button-next small-none"></div>
+                    <div class="swiper-button-prev small-none"></div>
+
+                    <i class="fas fa-quote-left swiper-quote"></i>
+                </div>
+            <!-- </div> -->
+        </scetion>
+    </main>
+
+    <footer>
+        <div class="container-lg">
+            <div class="row footer-nav">
+                <div class="col-md-6 footer-nav-list">
+                    <a href="#header">Home</a>
+                    <a href="#portfolio">Work</a>
+                    <a href="#clients">Blog</a>
+                </div>
+                <div class="col-md-6 search-container">
+                    <form action="#">
+                        <input type="text" placeholder="Search.." name="search">
+                        <button type="submit"><i class="fa fa-search"></i><span class="sr-only sr-only-focusable">Submit</span></button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="social-media-nav">
+                <a href="https://www.facebook.com/profile.php?id=100047567851996" target="_blank"><i class="fab fa-facebook-square"></i><span class="sr-only sr-only-focusable">facebook</span></a>
+                
+                <a href="https://www.instagram.com/elshazly9603/" target="_blank"><i class="fab fa-instagram-square"></i><span class="sr-only sr-only-focusable">instagram</span></a>
+                
+                <a href="https://twitter.com/Mohamed26053194" target="_blank"><i class="fab fa-twitter-square"></i><span class="sr-only sr-only-focusable">twitter</span></a>
+                
+                <a href="https://www.linkedin.com/in/mohamed-el-59560617a/" target="_blank"><i class="fab fa-linkedin"></i><span class="sr-only sr-only-focusable">Linked In</span></a>
+            </div>
+
+            <div class="copy-right">
+                Copyright &copy; 2020. Portfolio By Mohamed El-Shazly 
+            </div>
+        </div>
+    </footer>
+
+    <!--scripts-->
+    <script src="scripts/jquery-3.4.1.min.js"></script>
+    <script src="scripts/bootstrap.min.js"></script>
+    <!--swiper-->
+    <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+    <!--main script-->
+    <script src="scripts/scipt.js"></script>
+</body>
+</html>
