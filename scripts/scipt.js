@@ -112,6 +112,11 @@ window.addEventListener('load', ()=> {
           modifier: 1,
           slideShadows : true,
         },
+        pagination: {
+          el: '.swiper-pagination',
+          dynamicBullets: true,
+          clickable: false,
+        },
       });
 
       //clients swiper
